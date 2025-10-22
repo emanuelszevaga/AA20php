@@ -49,12 +49,6 @@
 
                     <li>
                         <a href="assets\php\ejercicio06_formulario.php">
-                            Formulario ejercicio 6
-                        </a>
-                    </li>
-                    
-                    <li>
-                        <a href="assets\php\ejercicio06.php">
                             Ejercicio 6
                         </a>
                     </li>
