@@ -1,0 +1,16 @@
+========================================================
+PEDIDO REALIZADO: 
+Nombre : emanuel
+Dirección : pedro mendez
+Detalle: 
+- Napolitana: 2 unidades
+========================================================
+
+========================================================
+PEDIDO REALIZADO: 
+Nombre : emanuel
+Dirección : pedro mendez
+Detalle: 
+- Napolitana: 2 unidades
+========================================================
+
