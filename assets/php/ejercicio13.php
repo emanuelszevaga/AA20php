@@ -11,13 +11,12 @@
         
         $nombre_archivo = "pedidos.txt";
 
-        // Verificar si el archivo existe
+        // Verifica si el archivo existe
         if (file_exists($nombre_archivo)) {
             
             // file_get_contents para leer un archivo completo.
             $contenido = file_get_contents($nombre_archivo);
 
-            // Mostrar el contenido en pantalla
             echo "<h2>Contenido de pedidos.txt</h2>";
             
             echo '<pre>';
@@ -26,8 +25,8 @@
 
         } else {
             // Mostrar un mensaje de error si el archivo no se encuentra
-            echo "<p style='color: red;'>Error: El archivo **{$nombre_archivo}** no se encontró en el directorio.</p>";
-            echo "<p>Asegúrate de haber ejecutado el ejercicio anterior (el del formulario de pizzas) al menos una vez y de que este archivo PHP esté en el mismo directorio que **pedidos.txt**.</p>";
+            echo "<p style='color: red;'>Error: El archivo {$nombre_archivo} no se encontró en el directorio.</p>";
+            echo "<p>Asegúrate de haber ejecutado el formulario de pizzas al menos una vez.</p>";
         }
 
         ?>

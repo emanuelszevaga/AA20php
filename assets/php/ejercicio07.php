@@ -15,7 +15,7 @@
             $estudios = $_REQUEST['estudios'];
             $mensaje_estudios = "";
 
-            // Determinar el mensaje basado en la opción de estudios seleccionada
+            // Determina el mensaje basado en la opción de estudios seleccionada
             if ($estudios == "sin") {
                 $mensaje_estudios = "no tiene estudios";
             } elseif ($estudios == "primarios") {
@@ -32,16 +32,15 @@
 
         } else {
             // Mostrar el Formulario 
-            
             echo "<h2>Formulario de Estudios</h2>";
             echo '<form method="post" action="">'; 
             
             // Campo para el Nombre
-            echo '<label for="nombre">Nombre:</label>';
+            echo '<label for="nombre">Nombre: </label>';
             echo '<input type="text" id="nombre" name="nombre" required><br><br>';
             
             // Controles Radio para Estudios
-            echo '<p>Nivel de Estudios:</p>';
+            echo '<p>Nivel de Estudios: </p>';
             
             // Opción 1: Sin estudios
             echo '<input type="radio" id="sin_estudios" name="estudios" value="sin" checked>';

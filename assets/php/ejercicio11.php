@@ -33,7 +33,7 @@
         $ultimo_dia = $dias_semana[$ultimo_indice];
 
         echo "<h2>Último Elemento</h2>";
-        echo "<p>El último día de la semana es: $ultimo_dia (ubicado en el índice $ultimo_indice)</p>";
+        echo "<p>El último día de la semana es: $ultimo_dia</p>";
         ?>
     </body>
 </html>
